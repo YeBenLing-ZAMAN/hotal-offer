@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import CustomLink from '../CustomLink/CustomLink';
 
 const Header = () => {
@@ -9,6 +8,7 @@ const Header = () => {
                 <CustomLink to='/'>Home</CustomLink>
                 <CustomLink to='/login'>Log In</CustomLink>
                 <CustomLink to='/offer'>Offers</CustomLink>
+                <CustomLink to='/signin'>signin</CustomLink>
             </nav>
         </div>
     );
